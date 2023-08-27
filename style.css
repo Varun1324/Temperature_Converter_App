@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-new{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-name{
+    font-family: Poppins;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+}
+@media (max-width:300px)
+{
+    .title-name{
+        font-size: 25px;
+    }
+}
+@media (max-width:500px)
+{
+    .title-name{
+        font-size: 25px;
+    }
+}
+@media (min-width:500px)
+{
+    .degree-input{
+        width: 50px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin: 20px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin: 20px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin: 20px;
+}
+.result-div{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.convert{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+label{
+    font-size: 1.5rem;
+    font-family:'Rajdhani', sans-serif;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.degree-input{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.input-val{
+    display: flex;
+    justify-content: center;
+}
+.convert-button{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    align-items: center;
+    background-color: #007FFF;
+    border: none;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+}
+.main-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

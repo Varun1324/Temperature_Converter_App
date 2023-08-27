@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js">    
+        //javascript file....
+    </script>
+</head>
+<body>
+<div class="main-div">
+    <div class="nav-new">
+        <div class="logo">
+            <img src="https://res.cloudinary.com/durc5ydxo/image/upload/v1690818432/pngwing.com_do0pf8.png" alt="logo-temp" class="logo-img">
+         </div>
+         <div class="title">
+             <span class="title-name">Temperature Converter</span>
+         </div>
+    </div>
+    <br>
+    
+    <div class="container">
+        <form action="#">
+        <div class="box1">
+                <div class="degree">
+                    <label class="degree-title">Degrees </label>
+                </div>
+                <div class="input-val">
+                    <input type="text" id="value1" class="degree-input">
+                </div>
+        </div> 
+        <div class="box2">
+            <input type="radio" id="radio1" name="type" value="farenheit">
+            <label for="farenheit">Farenheit</label>
+            <input type="radio" id="radio2" name="type" value="celcius">
+            <label for="celcius">Celsius</label>
+            <input type="radio" id="radio3" name="type" value="kelvin">
+            <label for="kelvin">Kelvin</label>
+        </div>
+        <div class="box3">
+            <label for="result-label">Result : </label>
+            <div class="result-div" id="myresult"></div>
+        </div>
+        <div class="convert">
+            <button class="convert-button" type="button" onclick="isRadioSelected()">CONVERT</button>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html> 
